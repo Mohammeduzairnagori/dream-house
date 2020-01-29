@@ -1,0 +1,62 @@
+h1 {
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Arial, Helvetica;
+}
+
+button, .btn-red, .btn-shadow {
+  cursor: pointer;
+  border: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: flex;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav button, nav .btn-red, nav .btn-shadow {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-red, .btn-shadow {
+  background-color: red;
+}
+
+.nav {
+  border: 1px solid;
+}
+.nav_list {
+  display: -webkit-box;
+  display: flex;
+}
+.nav .list {
+  list-style-type: none;
+}
+.nav_link {
+  text-decoration: none;
+}
+.nav_link:before {
+  content: "";
+}
+
+.block {
+  background-color: red;
+}
+.active-block .block {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.active-block {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
