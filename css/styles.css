@@ -8,11 +8,10 @@
   src: url(../fonts/HelveticaNeueLTStd-Bd.otf);
   src: url(../fonts/HelveticaNeueLTStd-Th.otf);
 }
-
 header {
   position: relative;
   background-image: url(../images/header/PPE.jpg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   width: 1600px;
   height: 1000px;
 }
@@ -29,7 +28,6 @@ header .container {
   background-image: url(../images/header/Shadow.png);
   background-repeat: no-repeat;
 }
-
 
 .header .container ul {
   display: flex;
@@ -50,7 +48,6 @@ a {
 
 p {
   margin-bottom: 0px;
-
 }
 
 .navigation-bar {
@@ -122,3 +119,5 @@ p {
   margin-left: 215px;
   margin-top: 258px;
 }
+
+/*# sourceMappingURL=styles.css.map */
