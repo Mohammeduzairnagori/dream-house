@@ -1,62 +1,124 @@
-h1 {
-  color: black;
-  font-size: 20px;
-  text-decoration: underline;
-  font-family: Arial, Helvetica;
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Black.ttf);
+  src: url(../fonts/Roboto-Bold.ttf);
+  src: url(../fonts/Roboto-Light.ttf);
+  src: url(../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/icofont.ttf);
+  src: url(../fonts/HelveticaNeueLTStd-Bd.otf);
+  src: url(../fonts/HelveticaNeueLTStd-Th.otf);
 }
 
-button, .btn-red, .btn-shadow {
-  cursor: pointer;
-  border: none;
+header {
+  position: relative;
+  background-image: url(../images/header/PPE.jpg);
+  background-repeat: no-repeat; 
+  width: 1600px;
+  height: 1000px;
 }
 
-nav ul {
-  display: -webkit-box;
+header .container {
   display: flex;
-}
-nav li {
-  list-style-type: none;
-}
-nav a {
-  text-decoration: none;
-}
-nav button, nav .btn-red, nav .btn-shadow {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  justify-content: space-between;
 }
 
-.btn-red, .btn-shadow {
-  background-color: red;
+.container {
+  margin: 0 auto;
+  height: 102px;
+  align-items: center;
+  background-image: url(../images/header/Shadow.png);
+  background-repeat: no-repeat;
 }
 
-.nav {
-  border: 1px solid;
-}
-.nav_list {
-  display: -webkit-box;
+
+.header .container ul {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.nav .list {
-  list-style-type: none;
+
+header .container ul li {
+  margin-left: 27px;
 }
-.nav_link {
+
+a {
   text-decoration: none;
-}
-.nav_link:before {
-  content: "";
-}
-
-.block {
-  background-color: red;
-}
-.active-block .block {
-  overflow: hidden;
-  background-color: #fff;
+  font-family: "Roboto Regular";
+  color: white;
 }
 
-.active-block {
-  overflow: hidden;
+p {
+  margin-bottom: 0px;
+
 }
 
-/*# sourceMappingURL=style.css.map */
+.navigation-bar {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  list-style: none;
+  display: flex;
+  margin-right: 215px;
+}
+
+.logo {
+  margin-left: 215px;
+}
+
+.struc {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue LT Std";
+  font-size: 24px;
+  color: white;
+  margin-left: 13px;
+}
+
+.ture {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue LT Std";
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.nav-home {
+  font-family: "Roboto Black";
+  color: yellow;
+  list-style: none;
+  font-size: 14px;
+}
+
+.lock-open {
+  padding-left: 28px;
+}
+
+.slider-top {
+  font-family: "Roboto Light";
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+
+.slider-top-dream {
+  font-family: "Roboto Black";
+  font-size: 104px;
+  color: yellow;
+  text-transform: uppercase;
+  line-height: 104px;
+}
+
+.slider-top-dream-house {
+  font-family: "Roboto Black";
+  font-size: 104px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 104px;
+}
+
+.sliders-top {
+  display: flex;
+  margin-left: 215px;
+  margin-top: 258px;
+}
