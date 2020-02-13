@@ -7,6 +7,7 @@
     src: url(../fonts/icofont.ttf);
     src: url(../fonts/HelveticaNeueLTStd-Bd.otf);
     src: url(../fonts/HelveticaNeueLTStd-Th.otf);
+    src: url(../fonts/Pe-icon-7-stroke.ttf);
   }
   
   header {
@@ -122,4 +123,62 @@
     margin-left: 215px;
     margin-top: 258px;
   }
-  
+
+  .slide-slide {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.consult {
+  background-image: url(../images/header/construction.png);
+  background-repeat: no-repeat; 
+  width: 1600px;
+  height: 210px;
+  position: relative;
+}
+
+.consult-q {
+  font-family: 'Roboto Black';
+  font-size: 36px;
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 201px;
+  padding: 81px 0px 0px 0px;
+  display: inline-block;
+}
+
+.consult-m {
+  font-family: 'Raleway Regular';
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 214px;
+  padding: 8px 0px 0px 0px;
+}
+
+.contactus {
+  display: flex;
+  position: absolute;
+  height: 69px;
+  width: 270px;
+  right: 215px;
+  bottom: 70px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/header/Rectangle.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  color: white;
+  font-family: "Roboto Black";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+[data-icon]::after {
+  font-family: 'eleganticons';
+  content: attr(data-icon);
+  margin-left: 15px;
+}
